@@ -1,32 +1,58 @@
 import React from "react";
 import "./Root.css";
+import { helloWithFlags } from "../utils/helloWorld";
+import HelloWorld from "../style/style";
 
 const Root = () => {
+  const [helloCount, setHelloCount] = React.useState(0);
+  const [intervalId, setIntervalId] = React.useState(null);
+
+  React.useEffect(() => {
+    const id = setInterval(() => {
+      setHelloCount((helloCount) =>
+        helloCount < helloWithFlags.length - 1 ? helloCount + 1 : 0
+      );
+    }, 2000);
+
+    setIntervalId(id);
+
+    return () => clearInterval(id);
+  }, []);
+
+  const handleMouseEnter = () => {
+    console.log("mouse enter")
+    clearInterval(intervalId);
+  };
+
+  const handleMouseLeave = () => {
+    console.log("mouse leave")
+    setIntervalId(
+      setInterval(() => {
+        setHelloCount((helloCount) =>
+          helloCount < helloWithFlags.length - 1 ? helloCount + 1 : 0
+        );
+      }, 2000)
+    );
+  };
+
   return (
     <>
-      <h1>30 Day Challenge React JS (Mirjalol-Jabborov)</h1>
-      <h2>
-        follow me on{" "}
-        <a
-          href="https://www.linkedin.com/in/mirjalol-jabborov/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          day-1
-        </a>
-      </h2>
-      <h2>
-        check my code on{" "}
-        <a
-          href="https://github.com/Mirjalol03/challange-30days-reactjs"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </a>
-      </h2>
+      <div className="card-container">
+        <div className="card" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+          <div className="card-flag">
+            <img
+              src={helloWithFlags[helloCount].Flag}
+              alt={helloWithFlags[helloCount].Message}
+            />
+          </div>
+          <div className="card-message">
+            <HelloWorld>{helloWithFlags[helloCount].Message}</HelloWorld>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
+
 
 export default Root;

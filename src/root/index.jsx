@@ -1,7 +1,7 @@
 import React from "react";
 import "./Root.css";
 import { helloWithFlags } from "../utils/helloWorld";
-import HelloWorld from "../style/style";
+import { CardContainer, HelloWorld } from "../style/style";
 
 const Root = () => {
   const [helloCount, setHelloCount] = React.useState(0);
@@ -20,12 +20,12 @@ const Root = () => {
   }, []);
 
   const handleMouseEnter = () => {
-    console.log("mouse enter")
+    console.log("mouse enter");
     clearInterval(intervalId);
   };
 
   const handleMouseLeave = () => {
-    console.log("mouse leave")
+    console.log("mouse leave");
     setIntervalId(
       setInterval(() => {
         setHelloCount((helloCount) =>
@@ -37,8 +37,12 @@ const Root = () => {
 
   return (
     <>
-      <div className="card-container">
-        <div className="card" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+      <CardContainer>
+        <div
+          className="card"
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
           <div className="card-flag">
             <img
               src={helloWithFlags[helloCount].Flag}
@@ -49,10 +53,9 @@ const Root = () => {
             <HelloWorld>{helloWithFlags[helloCount].Message}</HelloWorld>
           </div>
         </div>
-      </div>
+      </CardContainer>
     </>
   );
 };
-
 
 export default Root;

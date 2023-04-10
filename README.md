@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# React 30 Day Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the React 30 Day Challenge! This challenge is designed to help you improve your React skills by completing a different project or task each day for 30 days.
 
-## Available Scripts
+---
+ 
+ Follow me on [LinkedIn](https://www.linkedin.com/in/mirjalol-jabborov/)
+ 
+---
 
-In the project directory, you can run:
+## Day 1
+* Set up a new React project using Create React App and display "Hello World" on the page with a custom font and color scheme using CSS-in-JS libraries like styled-components, emotion, or CSS Modules.
 
-### `npm start`
+## Day 2
+* Build a responsive navbar with animated hamburger menu and dropdown menu using React Bootstrap or Ant Design with custom styling and animations.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Day 3
+* Create a complex form with validation and error messages using Formik and Yup validation library with custom styles and animations using Tailwind CSS or Material UI.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Day 4
+* Implement client-side routing using React Router with nested routes and dynamic URL parameters with custom transitions and animations using React Spring or Framer Motion.
 
-### `npm test`
+## Day 5
+* Learn and implement React Hooks to manage state and side effects with useEffect and useContext with custom animations and transitions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Day 6
+* Build a reusable React component for a data visualization chart using D3.js or Chart.js with custom styling and animations.
 
-### `npm run build`
+## Day 7
+* Create a dynamic image gallery using React and the Unsplash API with pagination, lazy loading, and custom animations and transitions using React Bootstrap or Ant Design.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Day 8
+* Implement a search feature with live filtering and autocomplete using React Hooks and the Fuse.js library with custom styling and animations using Tailwind CSS or Material UI.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Day 9
+* Build a multi-step checkout form with progress indicators and dynamic pricing using Formik, Stripe API, and React state with custom styling and animations using React Bootstrap or Ant Design.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Day 10
+* Learn and implement React Context to manage global state and theme switching with custom styling and animations using Tailwind CSS or Material UI.
 
-### `npm run eject`
+## Day 11
+* Create a dynamic and interactive map using React, Mapbox API, and GeoJSON data with custom styling and animations using React Bootstrap or Ant Design.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Day 12
+* Build a responsive and accessible modal component using React with custom styling and animations using Tailwind CSS or Material UI.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Day 13
+* Create a reusable and customizable table component using React and React Table with custom styling and animations using React Bootstrap or Ant Design.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Day 14
+* Implement authentication and authorization using Firebase Authentication and React state with custom styling and animations using Tailwind CSS or Material UI.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Day 15
+* Build a chat application using React and Firebase Realtime Database with custom styling and animations using React Bootstrap or Ant Design.
 
-## Learn More
+## Day 16
+* Learn and implement React Redux for centralized state management with custom styling and animations using Tailwind CSS or Material UI.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Day 17
+* Create a CRUD application with React, React Router, and a RESTful API using Axios with custom styling and animations using React Bootstrap or Ant Design.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Day 18
+* Build a responsive and accessible dropdown menu using React and React Portals with custom styling and animations using Tailwind CSS or Material UI.
 
-### Code Splitting
+## Day 19
+* Learn and implement React Server-Side Rendering (SSR) with Next.js with custom styling and animations using Tailwind CSS or Material UI.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Day 20
+* Create a drag and drop interface using React and React DnD library with custom styling and animations using React Bootstrap or Ant Design.
 
-### Analyzing the Bundle Size
+## Day 21
+* Build a real-time collaboration tool using React and Firebase Realtime Database with custom styling and animations using Tailwind CSS or Material UI.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Day 22:
+* Learn and implement React Performance Optimization techniques with React.memo, useMemo, and useCallback with custom styling and animations using Tailwind CSS or Material UI.
 
-### Making a Progressive Web App
+## Day 23:
+* Create a file uploader using React and Firebase Storage with custom styling and animations using React Bootstrap or Ant Design.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Day 24:
+* Build a responsive and accessible timeline component using React with custom styling and animations using Tailwind CSS or Material UI.
 
-### Advanced Configuration
+## Day 25:
+* Implement serverless functions and APIs using AWS Lambda and API.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Day 26:
+* Build a responsive and accessible accordion component using React with custom styling and animations using Tailwind CSS or Material UI.
 
-### Deployment
+## Day 27: 
+* Create a drag and drop file manager using React and React DnD library with custom styling and animations using React Bootstrap or Ant Design.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Day 28: 
+* Learn and implement React Context API for managing state in a scalable way with custom styling and animations using Tailwind CSS or Material UI.
 
-### `npm run build` fails to minify
+## Day 29: 
+* Build a custom video player using React and video.js library with custom styling and animations using React Bootstrap or Ant Design.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Day 30: 
+* Implement server-side rendering and client-side hydration with React and Next.js with custom styling and animations using Tailwind CSS or Material UI.
+

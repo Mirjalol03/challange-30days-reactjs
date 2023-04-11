@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+body.theme-dark{
+    background-color: #000a13;
+    color: #fff;
+}
+
+body.theme-light{
+    background-color: #ebebeb;
+    color: #000;
+
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}

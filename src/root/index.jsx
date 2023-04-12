@@ -12,7 +12,7 @@ const Root = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          day-1
+          Linkedin
         </a>
       </h2>
       <h2>

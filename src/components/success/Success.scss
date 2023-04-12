@@ -1,0 +1,43 @@
+.success {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+
+        gap: 13px;
+        width: 600px;
+        height: 200px;
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 25px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        position: relative;
+    }
+
+    &__card--title {
+        font-size: 20px;
+        font-weight: 600;
+        color: #000;
+    }
+
+    &__card--text {
+        font-size: 16px;
+        font-weight: 400;
+        color: #000;
+    }
+
+    &__card--footer{
+        position: absolute;
+        bottom: 25px;
+        right: 25px;
+    }
+}

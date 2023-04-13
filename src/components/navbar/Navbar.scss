@@ -1,0 +1,38 @@
+.nav{
+    background: #000;
+    color: #fff;
+
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    &__brand--logo{
+        color: #fff;
+        text-decoration: none;
+        font-size: 35px;
+    }
+
+    &__list{
+        display: flex;
+        list-style: none;
+
+    }
+    &__item{
+        margin: 0 10px;
+    }
+
+    &__link{
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    &__link:hover{
+        color: #f00;
+        
+    }
+
+}

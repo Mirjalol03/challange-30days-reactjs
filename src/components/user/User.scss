@@ -1,0 +1,43 @@
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+    &__wrapper{
+        min-width: 600px;
+        max-width: 1200px;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    &__card{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    &__img{
+        img{
+            width: 170px;
+            height: 170px;
+            object-fit: cover;
+        }
+    }
+
+   &__name{
+         font-size: 22px;
+         font-weight: 600;
+         margin-bottom: 10px;
+   }
+
+   &__bio {
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 10px;
+   }
+}

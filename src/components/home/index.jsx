@@ -2,9 +2,10 @@ import React from "react";
 import "./Home.scss";
 import { users } from "../../utils/users";
 import { motion } from "framer-motion";
-import { Navigate } from "react-router-dom";
+import { Navigate, useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const Navigate = useNavigate()
   return (
     <>
       <main className="main">
@@ -28,7 +29,7 @@ const Home = () => {
                 {users.length > 0 &&
                   users.map((user) => (
                     <motion.div
-                      onClick={() => {<Navigate to={'users/' + user.id} ></Navigate>}}
+                      onClick={() => {Navigate(`users/${user.id}`, { replace: true } )}}
                       animate={{
                         scale: [1.05, 1],
                         transition: { duration: 0.15 }

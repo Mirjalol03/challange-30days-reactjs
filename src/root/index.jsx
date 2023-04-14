@@ -1,30 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Root.css";
+import HomePage from "../pages/homePage";
+import UseIsDark from "../hooks/useIsDark";
+
+
 
 const Root = () => {
+  const [isDark] = UseIsDark();
+  useEffect(() => {
+      const darkTxt = isDark ? "dark" : "light";
+      const darkTxtFalse = isDark ? "light" : "dark";
+
+      document.body.classList.remove(darkTxtFalse);
+      document.body.classList.add(darkTxt); 
+  },  [isDark]);
   return (
     <>
-      <h1>30 Day Challenge React JS (Mirjalol-Jabborov)</h1>
-      <h2>
-        follow me on{" "}
-        <a
-          href="https://www.linkedin.com/in/mirjalol-jabborov/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Linkedin
-        </a>
-      </h2>
-      <h2>
-        check my code on{" "}
-        <a
-          href="https://github.com/Mirjalol03/challange-30days-reactjs"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </a>
-      </h2>
+      <HomePage></HomePage>
     </>
   );
 };

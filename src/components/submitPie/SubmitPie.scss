@@ -1,0 +1,22 @@
+.pie-form{
+
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__input {
+        padding: 10px;
+    }
+
+    &__label {
+        font-size: 13px;
+    }
+
+    &-group{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0;
+    }
+
+}

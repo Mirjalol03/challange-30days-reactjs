@@ -26,14 +26,14 @@ Welcome to the React 30 Day Challenge! This challenge is designed to help you im
 ## Day 6
 * Build a reusable React component for a data visualization chart using D3.js or Chart.js with custom styling and animations.
 
-## Day 11
+## Day 7
 * Create a dynamic and interactive map using React, Mapbox API, and GeoJSON data with custom styling and animations using React Bootstrap or Ant Design.
 
-## Day 17
+## Day 8
 * Create a CRUD application with React, React Router, and a RESTful API using Axios with custom styling and animations using React Bootstrap or Ant Design.
 
-## Day 22:
+## Day 9:
 * Learn and implement React Performance Optimization techniques with React.memo, useMemo, and useCallback with custom styling and animations using Tailwind CSS or Material UI.
 
-## Day 29: 
+## Day 10: 
 * Build a custom video player using React and video.js library with custom styling and animations using React Bootstrap or Ant Design.

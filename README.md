@@ -1,6 +1,6 @@
-# React 30 Day Challenge
+# React 10 Day Challenge
 
-Welcome to the React 30 Day Challenge! This challenge is designed to help you improve your React skills by completing a different project or task each day for 30 days.
+Welcome to the React 10 Day Challenge! This challenge is designed to help you improve your React skills by completing a different project or task each day for 10 days.
 
 ---
  

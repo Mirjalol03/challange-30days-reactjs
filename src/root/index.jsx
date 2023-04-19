@@ -66,7 +66,7 @@ const Root = () => {
       </div>
 
       <Map
-        mapboxAccessToken="pk.eyJ1IjoibWlyamFsb2wwMyIsImEiOiJjbGdsZXRodWwwNWMzM3FyMmVqd3A5MTlmIn0.FaUy2Iooxkv-p5N3cXCPwg"
+        mapboxAccessToken= {process.env.REACT_APP_MAPBOX_TOKEN}
         {...viewport}
         initialViewState={{
           ...viewport,

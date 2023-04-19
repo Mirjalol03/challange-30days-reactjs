@@ -1,0 +1,14 @@
+.post__wrapper{
+    max-width: 600px;
+    margin: auto;
+}
+
+.post__img img{
+    width: 100%;
+}
+
+@media screen and (max-width: 780px) {
+    .post__wrapper{
+        width: 90%;
+    }
+}

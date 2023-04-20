@@ -1,30 +1,19 @@
 import React from "react";
 import "./Root.css";
+import MemoWorks from "../components/MemoWorks";
+import UseMemoWorks from "../components/UseMemoWorks";
+import UseCallBackWorks from "../components/UseCallBackWorks";
 
 const Root = () => {
+  const [counter, setCounter] = React.useState(0);
+  console.log("Root render");
   return (
     <>
-      <h1>30 Day Challenge React JS (Mirjalol-Jabborov)</h1>
-      <h2>
-        follow me on{" "}
-        <a
-          href="https://www.linkedin.com/in/mirjalol-jabborov/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Linkedin
-        </a>
-      </h2>
-      <h2>
-        check my code on{" "}
-        <a
-          href="https://github.com/Mirjalol03/challange-30days-reactjs"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </a>
-      </h2>
+      <h2>{counter}</h2>
+      <button onClick={() => setCounter(counter + 1)}>Counter</button>
+      <MemoWorks></MemoWorks>
+      <UseMemoWorks></UseMemoWorks>
+      <UseCallBackWorks></UseCallBackWorks>
     </>
   );
 };

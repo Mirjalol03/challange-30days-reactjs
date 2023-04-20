@@ -36,4 +36,4 @@ Welcome to the React 10 Day Challenge! This challenge is designed to help you im
 * Learn and implement React Performance Optimization techniques with React.memo, useMemo, and useCallback with custom styling and animations using Tailwind CSS or Material UI.
 
 ## Day 10: 
-* Build a custom video player using React and video.js library with custom styling and animations using React Bootstrap or Ant Design.
+*Learn and implement React Redux for centralized state management with custom styling and animations using Tailwind CSS or Material UI.
